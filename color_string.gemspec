@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ColorString::VERSION
   spec.authors       = ["Sean Doyle"]
   spec.email         = ["sean.p.doyle24@gmail.com"]
-  spec.summary       = %q{Color your shell strings}
-  spec.description   = %q{Color your shell strings}
+  spec.summary       = %q{Colorize strings for terminal output}
+  spec.description   = %q{Colorize strings for terminal output}
   spec.homepage      = "https://github.com/seanpdoyle/color_string"
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "minitest"
 end

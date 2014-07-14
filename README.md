@@ -1,5 +1,8 @@
 # ColorString
 
+[![Build
+Status](https://travis-ci.org/seanpdoyle/color_string.svg?branch=master)](https://travis-ci.org/seanpdoyle/color_string)
+
 `color_string` is a Ruby library for outputting colored strings to a console
 using a simple inline syntax in your string to specify the color to print as.
 
